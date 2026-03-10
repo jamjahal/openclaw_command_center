@@ -9,7 +9,8 @@ Built as the monitoring frontend for [OpenClaw](https://github.com/openclaw) —
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
 
-[**Live Demo**](https://jamjahal.github.io/openclaw_command_center/) · [Report Bug](https://github.com/jamjahal/openclaw_command_center/issues) · [Request Feature](https://github.com/jamjahal/openclaw_command_center/issues)
+<!-- TODO: Replace YOUR_GITHUB_USERNAME with your GitHub username -->
+[**Live Demo**](https://jamjahal.github.io/openclaw-viewer/) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 ---
 
@@ -29,7 +30,7 @@ Built as the monitoring frontend for [OpenClaw](https://github.com/openclaw) —
 
      Uncomment ONE of these after adding your asset:
 -->
-<!-- ![OpenClaw Command Center](docs/demo.gif) -->
+![OpenClaw Command Center](docs/demo.gif)
 <!-- ![OpenClaw Command Center](docs/screenshot.png) -->
 
 ---
@@ -47,7 +48,8 @@ Built as the monitoring frontend for [OpenClaw](https://github.com/openclaw) —
 ## Quick Start
 
 ```bash
-git clone <repo-url> && cd openclaw-viewer
+git clone https://github.com/jamjahal/openclaw_command_center.git
+cd openclaw_command_center/openclaw-viewer
 npm install
 npm run dev
 ```
@@ -163,7 +165,7 @@ npm install -D gh-pages   # first time only
 npm run deploy
 ```
 
-This builds the app with the correct base path and publishes to the `gh-pages` branch. Enable GitHub Pages in your repo settings (Settings > Pages > Source: `gh-pages` branch) and your live demo will be available at `https://jamjahal.github.io/openclaw_command_center/`.
+This builds the app with the correct base path and publishes to the `gh-pages` branch. Enable GitHub Pages in your repo settings (Settings > Pages > Source: `gh-pages` branch) and your live demo will be available at `https://YOUR_USERNAME.github.io/openclaw-viewer/`.
 
 If you're using a custom domain or deploying elsewhere, set `VITE_BASE_PATH=/` in your environment before building.
 
