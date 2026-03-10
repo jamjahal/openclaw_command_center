@@ -142,7 +142,16 @@ npm run deploy    # Build and deploy to GitHub Pages
 
 ## Deployment
 
-One-command deploy to GitHub Pages:
+### Vercel (recommended)
+
+1. Import the repo at [vercel.com/new](https://vercel.com/new)
+2. Set **Root Directory** to `openclaw-viewer`
+3. Vercel auto-detects Vite — no other settings needed
+4. Click **Deploy**
+
+SPA routing is handled by the included `vercel.json`.
+
+### GitHub Pages
 
 ```bash
 cd openclaw-viewer
