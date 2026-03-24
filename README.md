@@ -9,7 +9,7 @@ Built as the monitoring frontend for [OpenClaw](https://github.com/openclaw) —
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
 
-[**Live Demo**](https://jamjahal.github.io/openclaw-viewer/) · [Report Bug](../../issues) · [Request Feature](../../issues)
+[**Live Demo**](https://jamjahal.github.io/openclaw_command_center/) · [Report Bug](https://github.com/jamjahal/openclaw_command_center/issues) · [Request Feature](https://github.com/jamjahal/openclaw_command_center/issues)
 
 ---
 
@@ -159,7 +159,7 @@ npm install -D gh-pages   # first time only
 npm run deploy
 ```
 
-This builds the app with the correct base path and publishes to the `gh-pages` branch. Enable GitHub Pages in your repo settings (Settings > Pages > Source: `gh-pages` branch) and your live demo will be available at `https://jamjahal.github.io/openclaw-viewer/`.
+This builds the app with the correct base path and publishes to the `gh-pages` branch. Enable GitHub Pages in your repo settings (Settings > Pages > Source: `gh-pages` branch) and your live demo will be available at `https://jamjahal.github.io/openclaw_command_center/`.
 
 If you're using a custom domain or deploying elsewhere, set `VITE_BASE_PATH=/` in your environment before building.
 
